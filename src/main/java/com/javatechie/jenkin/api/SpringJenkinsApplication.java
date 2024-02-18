@@ -12,7 +12,7 @@ public class SpringJenkinsApplication {
 
 	@GetMapping("/ping")
 	public String message() {
-		return "Wao!! Application Deployed successfully in Jenkins Cloud..";
+		return "Wao!! Application Deploy successfully in Jenkins Cloud..";
 	}
 
 	public static void main(String[] args) {
